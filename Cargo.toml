@@ -1,0 +1,23 @@
+[package]
+name = "ambiq-apollo1-pac"
+version = "0.1.0"
+authors = ["Silvano Cortesi <silvano.cortesi@hotmail.com>"]
+description = "Peripheral access API for Ambiq Apollo 1 microcontrollers"
+edition = "2018"
+keywords = ["ambiq", "apollo", "apollo1", "svd2rust", "no_std", "embedded"]
+categories = ["embedded", "no-std"]
+license = "MIT/Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bare-metal = "0.2.4"
+vcell = "0.1"
+cortex-m = ">= 0.5.8, < 0.7"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6.8"
+
+[features]
+rt = ["cortex-m-rt/device"]
