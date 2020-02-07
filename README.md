@@ -3,8 +3,7 @@
 > Peripheral access API for the Ambiq Apollo 1 microcontrollers
 
 This repo contains the sources used to generate the code for the Ambiq Apollo 1
-microcontroller from the corresponding SVD files that are also included
-in this repo.
+microcontroller from the corresponding SVD files, which can be found on https://ambiqmicro.com/mcu/ in the SDK (Not included in this repo due to copyright).
 
 We use `svd2rust` to generate the code, `form` to organize it, and `cargo fmt`
 to make it pretty.
