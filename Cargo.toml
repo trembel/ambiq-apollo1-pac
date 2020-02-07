@@ -5,7 +5,7 @@ authors = ["trembel <silvano.cortesi@hotmail.com>"]
 description = "Peripheral access API for Ambiq Apollo 1 microcontrollers"
 repository = "https://github.com/trembel/ambiq-apollo1-pac"
 edition = "2018"
-keywords = ["ambiq", "apollo", "apollo1", "svd2rust", "no_std", "embedded"]
+keywords = ["ambiq", "apollo", "svd2rust", "no_std", "embedded"]
 categories = ["embedded", "no-std"]
 license = "MIT/Apache-2.0"
 
